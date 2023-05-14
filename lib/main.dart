@@ -22,15 +22,21 @@ void main(){
   String choice = chosenOperand();
   double answer = 0.0;
 
-  if (choice = '+'){
+  if (choice == '+'){
     answer = number1 + number2;
-  }else if (choice = '-'){
+    print('$number1 $choice $number2 = $answer');
+  }else if (choice == '-'){
     answer = number1 - number2;
-  }else if(choice = '*'){
+    print('$number1 $choice $number2 = $answer');
+  }else if(choice == '*'){
     answer = number1 * number2;
-  }else if(choice = '/'){
+    print('$number1 $choice $number2 = $answer');
+  }else if(choice == '/'){
     answer = number1/number2;
+    print('$number1 $choice $number2 = $answer');
   }else{
     print('Invalid Operand entered');
   }
+  
+  
 }
