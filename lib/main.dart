@@ -31,6 +31,6 @@ void main(){
   }else if(choice = '/'){
     answer = number1/number2;
   }else{
-    print('Invalid Operand entered')
+    print('Invalid Operand entered');
   }
 }
