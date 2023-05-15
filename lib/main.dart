@@ -24,16 +24,16 @@ void main(){
 
   if (choice == '+'){
     answer = number1 + number2;
-    print('$number1 $choice $number2 = $answer');
+    print('${number1} ${choice} ${number2} = ${answer}');
   }else if (choice == '-'){
     answer = number1 - number2;
-    print('$number1 $choice $number2 = $answer');
+    print('${number1} ${choice} ${number2} = ${answer}');
   }else if(choice == '*'){
     answer = number1 * number2;
-    print('$number1 $choice $number2 = $answer');
+    print('${number1} ${choice} ${number2} = ${answer}');
   }else if(choice == '/'){
     answer = number1/number2;
-    print('$number1 $choice $number2 = $answer');
+    print('${number1} ${choice} ${number2} = ${answer}');
   }else{
     print('Invalid Operand entered');
   }
